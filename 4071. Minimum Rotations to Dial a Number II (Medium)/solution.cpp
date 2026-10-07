@@ -1,18 +1,22 @@
 class Solution {
 public:
     int minRotations(int n, string s) {
-        int ans = 0,sum = 0;
-        s = '0' + s;
-        n++;
-        for(int i = 1; i < n; i++){
-            sum += min(abs(s[i] - '0' - (s[i-1]-'0')), 10 - abs(s[i]- '0' -(s[i-1] - '0')));
+        int ans = 0;
+        char start = '0';
+        for (auto& i : s) {
+            int dist = abs(i - start);
+            ans += min(dist, 10 - dist);
+            start = i;
         }
-        ans = sum;
-        for(int i = n-2; i > 0; i--){
-            int a = min(ans, sum - min(abs(s[i] - '0' - (s[i-1] - '0')), 10 - abs(s[i] - '0' - (s[i-1] - '0')));
-            int b = min(abs(s[n-1] - '0' - (s[i-1] - '0')), 10 - abs(s[n-1] - '0' - (s[i-1] - '0'))));
-            ans = a + b;
+        int stock = ans;
+        for (int i = 0; i < n; i++) {
+            int old = abs(s[i] - (i == 0 ? '0' : s[i - 1]));
+            int now = abs(s[n - 1] - (i == 0 ? '0' : s[i - 1]));
+            old = min(old, 10 - old);
+            now = min(now, 10 - now);
+            ans = min(ans, stock - old + now);
         }
+
         return ans;
     }
 };
