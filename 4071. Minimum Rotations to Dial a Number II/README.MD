@@ -1,4 +1,5 @@
-# Minimum Rotations to Dial a Number II
+# Minimum Rotations to Dial a Number II (Medium)
+[Link](https://leetcode.com/problems/minimum-rotations-to-dial-a-number-ii/submissions/2161691396/)
 
 ## Problem
 

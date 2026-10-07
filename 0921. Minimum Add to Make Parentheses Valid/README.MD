@@ -1,4 +1,5 @@
-# Minimum Add to Make Parentheses Valid
+# Minimum Add to Make Parentheses Valid (Medium)
+[Link](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/submissions/2164437688/)
 
 ## Problem
 
