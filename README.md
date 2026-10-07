@@ -18,7 +18,7 @@ My LeedCode Problem-Solving Record
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 23     |
-| Medium     | 22     |
+| Medium     | 24     |
 | Hard       | 2      |
 
 ## 🧠 Topics
