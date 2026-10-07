@@ -1,6 +1,6 @@
 # Minimum Path Sum (Medium)
 
-[LeetCode](https://leetcode.com/problems/minimum-path-sum/)
+[Link to LeetCode](https://leetcode.com/problems/minimum-path-sum/submissions/2164941281/)
 
 ## Problem
 
