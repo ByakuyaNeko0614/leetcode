@@ -19,7 +19,7 @@ My LeedCode Problem-Solving Record
 |------------|--------|
 | Easy       | 23     |
 | Medium     | 24     |
-| Hard       | 2      |
+| Hard       | 03     |
 
 ## 🧠 Topics
 
