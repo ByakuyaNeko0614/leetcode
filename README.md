@@ -1,9 +1,8 @@
-# leetcode
-My LeetCode solutions and algorithm notes in C++.
-
 # LeetCode Solutions
 
 My LeedCode Problem-Solving Record
+
+Solutions and algorithm notes in C++
 
 ## 🎯 Goals
 
@@ -18,7 +17,7 @@ My LeedCode Problem-Solving Record
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 23     |
-| Medium     | 24     |
+| Medium     | 25     |
 | Hard       | 03     |
 
 ## 🧠 Topics
