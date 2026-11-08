@@ -16,9 +16,9 @@ Solutions and algorithm notes in C++
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 34     |
-| Medium     | 37     |
-| Hard       | 04     |
+| Easy       | 38     |
+| Medium     | 42     |
+| Hard       | 05     |
 
 ## 🧠 Topics
 
